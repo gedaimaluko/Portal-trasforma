@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uso de LLMs em empresas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <p class="marca">Projeto Jornalismo</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projeto1.html">Projeto 1</a></li>
+        <li><a href="projeto2.html" aria-current="page">Projeto 2</a></li>
+        <li><a href="projeto3.html">Projeto 3</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Estudo mostra como a empresa pode pagar menos sem usar o modelo maior em toda pergunta</h1>
+    <p class="linha-fina">Revisão de seis artigos recentes indica que um roteador manda tarefas simples ao modelo menor e reserva o modelo maior para o que exige mais qualidade.</p>
+    <p class="credito">Por Carlos Henrique Cardoso da Silva Rocha, Daniel Carvalho Silva e fernando alves ferreira. Palmas, 7 de outubro de 2026.</p>
+    <figure class="capa">
+      <img src="img/projeto2-01.jpg" alt="Banner sobre a análise econômico-financeira do uso de modelos de linguagem em empresas, com roteamento entre modelo menor e modelo maior">
+      <figcaption>Banner apresentado na XV Jornada de Iniciação Científica, Extensão e Inovação da UniCatólica, em Palmas.</figcaption>
+    </figure>
+
+    <h2>Objetivo do projeto</h2>
+    <p>O trabalho analisa o equilíbrio entre custo, desempenho e qualidade quando uma empresa usa modelos de linguagem de grande porte. A pergunta é se dá para manter respostas satisfatórias gastando menos do que se gastaria ao mandar toda consulta para o modelo maior.</p>
+    <p>O caminho escolhido foi comparar estudos publicados entre 2024 e 2026. O banner reúne seis artigos e observa custos de utilização, desempenho, tamanho dos modelos e estratégias de roteamento.</p>
+    <p>No exemplo desenhado pela equipe, cada pergunta passa primeiro por um roteador. Ele olha a dificuldade da tarefa e a qualidade desejada. O modelo menor fica com o que é simples. O maior só entra quando a resposta precisa ser melhor.</p>
+
+    <h2>Problema a ser resolvido</h2>
+    <p>Empresas já usam esses modelos em atendimento, análise de dados, geração de conteúdo e automação. O modelo maior entrega mais qualidade, mas custa mais em processamento e em dinheiro.</p>
+    <p>Usar esse modelo em toda pergunta paga capacidade que muitas tarefas não exigem. Modelos menores podem bastar no que é simples e respondem com mais velocidade. Sem um critério de escolha, a conta sobe e a operação não fica mais eficiente.</p>
+    <p>O banner trata esse desequilíbrio como o problema central. A empresa precisa saber quando a qualidade extra compensa o preço e quando o modelo menor resolve.</p>
+
+    <h2>Área de atuação</h2>
+    <p>O recorte é a viabilidade econômico-financeira do uso desses modelos dentro de empresas. Não é a construção de um modelo novo. É a leitura de como rotear consultas entre modelos de portes diferentes.</p>
+    <p>A pesquisa é qualitativa e comparativa. Os artigos saíram de anais do ICLR, da ACL Anthology, do IEEE Xplore e do arXiv. O método tem quatro passos: seleção dos artigos, comparação de custos, desempenho e eficiência, análise das estratégias de roteamento e síntese dos resultados.</p>
+    <p>O banner foi apresentado na XV Jornada de Iniciação Científica, Extensão e Inovação, a TransForma, no Centro Universitário Católica do Tocantins.</p>
+
+    <h2>Público-alvo</h2>
+    <p>O texto se dirige a quem decide tecnologia dentro da empresa: a pessoa que autoriza o gasto com modelos de linguagem e precisa explicar por que uma consulta foi para o modelo caro.</p>
+    <p>Também interessa a quem opera atendimento, análise de dados ou automação e vê tarefas simples e complexas misturadas na mesma fila. O roteador separa essas filas.</p>
+    <p>O banner não descreve um setor único, como comércio ou indústria. O público é a organização que já usa ou pretende usar esses modelos e quer testar o roteamento no próprio contexto antes de adotá-lo.</p>
+
+    <h2>Partes interessadas</h2>
+    <p>Os autores são Maria Eduarda Alexandre Aguiar, Marcelo Negrão Mascarenhas Filho e Mariana Martins Silva, do curso de Engenharia de Software. A orientação é da professora Ila Raquel.</p>
+    <p>De um lado estão as empresas que pagam a consulta. De outro, as equipes que dependem da qualidade da resposta em tarefas complexas e da velocidade nas tarefas simples. O roteador existe para não obrigar todo mundo a usar o mesmo modelo.</p>
+    <p>Os seis estudos revisados também são parte do trabalho. Eles fornecem as estratégias e os percentuais. O banner não cita uma empresa visitada nem um teste feito pela própria equipe em um cliente.</p>
+
+    <h2>Estado do mercado e concorrentes</h2>
+    <p>O mercado já discute como escolher o modelo conforme a pergunta, em vez de fixar um só. O banner não compara produtos comerciais. Ele compara seis artigos acadêmicos e resume três faixas: até 40% menos chamadas a modelos maiores, mais de 50% de redução no custo computacional e até 30% de redução de custos em sistemas com vários modelos.</p>
+    <h3><a href="https://arxiv.org/abs/2406.18665">RouteLLM</a></h3>
+    <p>O RouteLLM, citado no próprio banner, aprende a rotear com base em preferências. Na tabela da equipe, essa estratégia aparece como mais de duas vezes mais econômica, com desempenho próximo ao do modelo maior. O código aberto está no <a href="https://github.com/lm-sys/RouteLLM">repositório do projeto</a>. Diferente de um produto fechado, ele é uma ferramenta de pesquisa que a empresa ainda precisa adaptar e testar.</p>
+    <h3><a href="https://openrouter.ai/">OpenRouter</a></h3>
+    <p>A OpenRouter oferece uma porta de entrada única para centenas de modelos, com preços distintos e troca de fornecedor se um deles falha. Ela ocupa o mesmo problema do banner: não pagar o modelo mais caro em toda consulta. O banner não avalia essa plataforma. A diferença é que a OpenRouter já opera como serviço, enquanto o trabalho da UniCatólica é uma revisão qualitativa e recomenda testar a estratégia em cada organização.</p>
+
+    <h2>Diferencial</h2>
+    <p>O banner não apresenta um roteador criado pela equipe. O diferencial está na síntese: juntar seis estudos recentes e traduzir o roteamento em um exemplo simples, com a pergunta do usuário, o modelo menor e o modelo maior.</p>
+    <p>Na tabela, o Hybrid LLM reduz custos em até 40% e mantém a qualidade. O OrchestraLLM passa de 50% e mantém ou melhora o desempenho. O TensorOpera Router chega a até 30%. O RouteLLM fica mais de duas vezes mais econômico. Outros dois artigos olham o consumo de energia e a decodificação especulativa.</p>
+    <p>A conclusão pede cautela. A escolha do modelo deve considerar a complexidade da tarefa, os recursos disponíveis e o objetivo da organização. Por ser uma revisão, e não um teste dentro de uma empresa, o material recomenda experimentar a estratégia no contexto local antes de adotá-la.</p>
+
+    <h2>Tecnologias</h2>
+    <p>O objeto do estudo são os modelos de linguagem de grande porte e o roteamento entre um modelo menor, mais barato e mais rápido, e um modelo maior, usado só quando a qualidade exige. A equipe não informa uma marca de modelo nem diz ter programado o roteador.</p>
+    <p>A comparação usou artigos de 2024 a 2026 obtidos no ICLR, na ACL Anthology, no IEEE Xplore e no arXiv. As estratégias citadas incluem roteamento entre modelos, orquestração de modelos menores e maiores, seleção automática, análise de energia, decodificação especulativa e roteamento por preferências.</p>
+    <p>No desenho do banner, o roteador avalia a dificuldade e a qualidade desejada antes de encaminhar a pergunta. Assim a empresa deixa de pagar o modelo maior em todas as consultas.</p>
+
+    <h2>Análise crítica do trio</h2>
+    <h3>Pontos fortes</h3>
+    <p>A pergunta é direta e os números do banner são fáceis de ler: menos chamadas ao modelo maior, queda de custo e qualidade mantida ou próxima. O exemplo do roteador explica a ideia sem exigir que o leitor domine os seis artigos. A conclusão não promete economia automática.</p>
+    <h3>Pontos a melhorar</h3>
+    <p>O trabalho não testa uma empresa real. Não há orçamento de implantação, nem o nome dos modelos menor e maior, nem a medida do mercado. A revisão é qualitativa, e a própria equipe avisa que os percentuais vêm dos estudos analisados.</p>
+    <h3>Sugestão</h3>
+    <p>Antes de adotar o roteamento, a organização pode separar um conjunto de perguntas simples e outro de perguntas complexas, passar as duas filas pelo critério do banner e comparar custo e qualidade com o hábito de usar só o modelo maior.</p>
+
+    <h2>Equipe e autorização</h2>
+    <p>O projeto visitado é de Maria Eduarda Alexandre Aguiar, Marcelo Negrão Mascarenhas Filho e Mariana Martins Silva, com orientação da professora Ila Raquel, no curso de Engenharia de Software.</p>
+    <p>O trio da cobertura informa que os projetos visitados autorizaram a publicação. O aceite precisa ficar em documento ou vídeo restrito a quem tem o link, com o nome deste projeto e o nome de quem autorizou.</p>
+    <p>Esta página não traz telefone, e-mail, endereço ou rede social. Se alguém pedir a retirada de uma foto, ela sai do site e do repositório.</p>
+
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <figure>
+        <img src="img/projeto2-01.jpg" alt="Banner sobre a análise econômico-financeira do uso de modelos de linguagem em empresas">
+        <figcaption>Banner com o exemplo de roteamento entre o modelo menor e o modelo maior.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/projeto2-02.jpg" alt="Três pessoas posam ao lado do banner do estudo sobre modelos de linguagem, na jornada da UniCatólica">
+        <figcaption>Apresentação do banner na XV Jornada de Iniciação Científica, Extensão e Inovação.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/projeto2-03.jpg" alt="[Descrever a foto 3 do projeto 2]">
+        <figcaption class="a-preencher">[Preencher] Legenda da foto 3, feita pelo trio.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/projeto2-04.jpg" alt="[Descrever a foto 4 do projeto 2]">
+        <figcaption class="a-preencher">[Preencher] Legenda da foto 4, feita pelo trio.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/projeto2-05.jpg" alt="[Descrever a selfie do trio no projeto 2]">
+        <figcaption class="a-preencher">[Preencher] Selfie do trio na cobertura deste projeto.</figcaption>
+      </figure>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2026 Carlos Henrique Cardoso da Silva Rocha, Daniel Carvalho Silva e fernando alves ferreira. Disciplina: Sistemas para Internet.</p>
+  </footer>
+</body>
+</html>
